@@ -64,31 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DataLikers provides a developer platform offering RESTful APIs and MCP server access to Instagram and TikTok data at scale. It includes a fast cache API, AI‑powered MCP server for Claude, and ready‑made datasets covering user profiles, posts, comments, hashtags, and more. The service emphasizes no rate limits, transparent pricing starting at $0.0003 per request, and tools for dataset building and face analysis, targeting developers and businesses needing large‑scale social media data.
+DataLikers provides a developer platform offering cached Instagram and TikTok data via a RESTful Cache API and an MCP server for AI assistants. The service delivers user profiles, posts, reels, stories, comments, hashtags, audio tracks, and search results at scale, with pay-per-request pricing starting at $0.0003 per call. No OAuth or platform agreements are required; an API key grants immediate access. The platform also offers ready-made datasets for analytics and machine learning.
 
-**Areas:** Company · Data · Social Media · API · Developer Platform
+**Areas:** Company · Data API · Instagram · TikTok · MCP · Analytics
 
 ## datalikers-com on APIs.io
 
 Everything profiled for datalikers-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/datalikers-com/](https://apis.io/providers/datalikers-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (15)
+### APIs (1)
 
-- [datalikers-com Comment API](https://apis.io/apis/datalikers-com/datalikers-com-comment-api/) — Instagram comments — lookup by PK. Cache-only, no live fallback.
-- [datalikers-com Hashtag API](https://apis.io/apis/datalikers-com/datalikers-com-hashtag-api/) — Instagram hashtags — lookup by PK or name.
-- [datalikers-com Highlight API](https://apis.io/apis/datalikers-com/datalikers-com-highlight-api/) — Instagram story highlights — lookup by PK or URL.
-- [datalikers-com Location API](https://apis.io/apis/datalikers-com/datalikers-com-location-api/) — Instagram locations — lookup by PK or name search.
-- [datalikers-com Media API](https://apis.io/apis/datalikers-com/datalikers-com-media-api/) — Instagram posts, reels, and carousels — lookup by PK, shortcode, or full URL.
-- [datalikers-com Story API](https://apis.io/apis/datalikers-com/datalikers-com-story-api/) — Instagram stories — lookup by PK or story URL.
-- [datalikers-com System API](https://apis.io/apis/datalikers-com/datalikers-com-system-api/) — Service health check and account balance.
-- [datalikers-com TikTok Comment API](https://apis.io/apis/datalikers-com/datalikers-com-tiktok-comment-api/) — TikTok comments — lookup by PK or by author user_pk. Cache-only.
-- [datalikers-com TikTok Hashtag API](https://apis.io/apis/datalikers-com/datalikers-com-tiktok-hashtag-api/) — TikTok hashtags (challenges) — lookup by PK or name.
-- [datalikers-com TikTok Media API](https://apis.io/apis/datalikers-com/datalikers-com-tiktok-media-api/) — TikTok videos — lookup by PK or by owner user_pk.
-- [datalikers-com TikTok Playlist API](https://apis.io/apis/datalikers-com/datalikers-com-tiktok-playlist-api/) — TikTok playlists (mixes) — lookup by PK or by owner user_pk.
-- [datalikers-com TikTok User API](https://apis.io/apis/datalikers-com/datalikers-com-tiktok-user-api/) — TikTok user profiles — lookup by PK or unique_id (handle).
-- [datalikers-com Track API](https://apis.io/apis/datalikers-com/datalikers-com-track-api/) — Instagram audio tracks used in reels — lookup by PK.
-- [datalikers-com User API](https://apis.io/apis/datalikers-com/datalikers-com-user-api/) — Instagram user profiles — lookup by PK or username, extended about info, AI face analysis, best-effort followers list.
-- [datalikers-com User v2 API](https://apis.io/apis/datalikers-com/datalikers-com-user-v2-api/) — The User v2 API from datalikers-com — 1 operation(s) for user v2.
+- [DataLikers Cache API](https://apis.io/apis/datalikers-com/cache-api/) — RESTful API providing cached Instagram and TikTok data such as user profiles, posts, reels, stories, comments, hashtags, audio tracks, and search results.…
 
 ### Published properties
 
@@ -120,41 +106,55 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Datalikers Com Domain Security](https://apis.io/security/datalikers-com/datalikers-com-domain-security/)
 - [Datalikers Com Vulnerability Disclosure](https://apis.io/security/datalikers-com/datalikers-com-vulnerability-disclosure/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Datalikers Com Scopes](https://apis.io/scopes/datalikers-com/datalikers-com-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Datalikers Com Plans Pricing](https://apis.io/plans/datalikers-com/datalikers-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Datalikers Com Rate Limits](https://apis.io/rate-limits/datalikers-com/datalikers-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://datalikers.com/)
-- [Documentation](https://datalikers.com/docs)
-- [API reference](https://api.datalikers.com/redoc)
-- [Pricing](https://datalikers.com/pricing)
-- [Support](https://datalikers.com/help)
+- [Documentation](https://api.datalikers.com/docs)
+- [Getting started](https://datalikers.com/registration)
+- [API reference](https://api.datalikers.com/openapi.json)
+- [Pricing](https://datalikers.com/)
+- [Sign up](https://datalikers.com/registration)
 - [Changelog](https://datalikers.com/changelog)
 - [Blog](https://datalikers.com/blog)
 - [Terms of service](https://datalikers.com/help/terms-of-service)
 - [Privacy policy](https://datalikers.com/help/privacy-policy)
+- [GitHub](https://github.com/subzeroid/datalikers-mcp)
 - [Status](https://datalikers.com/status)
 
 ## API Evangelist rating
 
-**Kin Score 55.2** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 68.8** — exemplar · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 45.5 |
+| Discoverability | 65.0 |
+| Contract quality | 45.6 |
 | Contract governance | 70.9 |
-| Operational transparency | 50.0 |
-| Developer ergonomics | 35.7 |
-| Access clarity | 63.7 |
+| Operational transparency | 75.8 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 73.2 |
 
-**Agent readiness 52.6** — agent-ready (gated down from agent-native)
+**Agent readiness 58.0** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -166,9 +166,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | verified |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -180,7 +180,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/datalikers-com/](https://apis.io/providers/datalikers-com/).
 
